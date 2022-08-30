@@ -15,22 +15,22 @@ https://ethereum.org/en/developers/tutorials/transfers-and-approval-of-erc-20-to
 
 MANUAL TOKEN
 ============
-ERC20Basic.sol  -- Manually implemented ERC20 token
-MTEX.sol        -- Manual Token EXchange contract to buy and sell tokens
-MTEXFactory.sol -- Manual Token EXchange Factory to execute the buy and sell function of the exchange(MTEX) from remix.
+- ERC20Basic.sol  -- Manually implemented ERC20 token
+- MTEX.sol        -- Manual Token EXchange contract to buy and sell tokens
+- MTEXFactory.sol -- Manual Token EXchange Factory to execute the buy and sell function of the exchange(MTEX) from remix.
 
 
 OPENZEPPELIN TOKEN
 ==================
 
-OPZLNToken.sol   --  OpenZeppelin token
-OTEX.sol         --  OpenZeppelin Token EXchange contract to buy and sell tokens
-OTEXFactory.sol  --  OpenZeppelin Token EXchange Factory to execute the buy and sell function of the exchange(OTEX) from remix.
+- OPZLNToken.sol   --  OpenZeppelin token
+- OTEX.sol         --  OpenZeppelin Token EXchange contract to buy and sell tokens
+- OTEXFactory.sol  --  OpenZeppelin Token EXchange Factory to execute the buy and sell function of the exchange(OTEX) from remix.
 
 
 Steps in remix:
 ===============
 
-Compile the contracts
-Deploy the Factory contract
-Open the deployed contract and call the factory methods
+- Compile the contracts
+- Deploy the Factory contract
+- Open the deployed contract and call the factory methods
