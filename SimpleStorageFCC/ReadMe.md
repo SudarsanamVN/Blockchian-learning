@@ -14,8 +14,8 @@ __Primitive data  types__
 **Smart contracts have addresses just like our walled accounts do**
 
 **View, pure**
-	View function - cannot update anything; does not modify the state of the blockchain; only read the state 
-	Pure function - cannot update anything; does not allow to modify the state of the blockchain; cannot read the state as well
+	*View function - cannot update anything; does not modify the state of the blockchain; only read the state 
+	*Pure function - cannot update anything; does not allow to modify the state of the blockchain; cannot read the state as well
 	
 **EVM overview**
 	EVM can access and store information in six places
@@ -30,7 +30,7 @@ __Primitive data  types__
 	*Calldata - cannot modify the variable inside the function
 	*Storage - saved globally; can be used within the function and outside the function
 
-**Inheritance **
+**Inheritance**
 	Import the parent class
 	Contract name with the 'is' keyword
 		ExtraStorage is SimpleStorage
