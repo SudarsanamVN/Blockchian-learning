@@ -1,10 +1,10 @@
 __Primitive data  types__
-	*Boolean, 
-	*uint,
-	*int, 
-	*address, 
-	*Bytes,
-	*String (array of bytes)
+	-Boolean, 
+	-uint,
+	-int, 
+	-address, 
+	-Bytes,
+	-String (array of bytes)
 
 **Functions, methods**
 	Function keyword
@@ -14,8 +14,8 @@ __Primitive data  types__
 **Smart contracts have addresses just like our walled accounts do**
 
 **View, pure**
-	*View function - cannot update anything; does not modify the state of the blockchain; only read the state 
-	*Pure function - cannot update anything; does not allow to modify the state of the blockchain; cannot read the state as well
+	-View function - cannot update anything; does not modify the state of the blockchain; only read the state 
+	-Pure function - cannot update anything; does not allow to modify the state of the blockchain; cannot read the state as well
 	
 **EVM overview**
 	EVM can access and store information in six places
@@ -26,9 +26,9 @@ __Primitive data  types__
 			v. Code
 			vi. Logs
 		
-	*Memory, calldata - saved temporary within the function scope; 
-	*Calldata - cannot modify the variable inside the function
-	*Storage - saved globally; can be used within the function and outside the function
+	-Memory, calldata - saved temporary within the function scope; 
+	-Calldata - cannot modify the variable inside the function
+	-Storage - saved globally; can be used within the function and outside the function
 
 **Inheritance**
 	Import the parent class
