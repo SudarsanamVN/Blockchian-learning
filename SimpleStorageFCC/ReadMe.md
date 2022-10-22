@@ -1,4 +1,4 @@
-**Primitive data  types**
+__Primitive data  types__
 	*Boolean, 
 	*uint,
 	*int, 
